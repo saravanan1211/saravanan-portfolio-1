@@ -1,0 +1,422 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "bai jamjuree";
+}
+body{
+    overflow-x: hidden;
+  
+}
+html{
+    scroll-padding-top: 1.5rem;
+}
+:root{
+    --primary-color: #020a30;
+    --secondary-color: #0b2a64;
+    --color1: #f7ef80;
+    --color2: #949eb1;
+    --color3: #d6dce0;
+    --color4: #90953b;
+    --font-family: "bai jamjuree";
+
+    
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+.her{
+    width: 100%;
+    height: 100vh ;
+    display: flex;
+}
+
+.whe h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.whe h2{
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.whe span{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: violet;
+}
+.jer span{
+    color: aqua;
+
+}
+.jer h2{
+    color: aqua;
+    font-size: 50px;
+
+}
+.jer h3{
+    color: aqua;
+
+
+}
+.ger h3{
+    color: aqua;
+
+
+}
+.ger span{
+    font-size: 50px;
+    color: aqua;
+}
+.whe p span{
+    color: violet;
+    font-size: 20px;
+}
+.cer{
+    justify-content: center;
+    display: flex;
+}
+.cer p{
+    font-size: 25px;
+    color: #90953b;
+}
+.cer p:hover{
+    border-bottom: 2px solid  #949eb1;
+    
+}
+
+.navbar-nav a:hover{
+    background-color: aqua;
+    border: 1px solid #0b2a64;
+    box-shadow: 2px 2px 5px 5px blueviolet;
+
+
+}
+.rex{
+    background-image: url(images/profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rex{
+    width: 300px;
+    height: 300px;
+    border: 2px solid royalblue;
+    border-radius: 50%;
+    box-shadow: 3px 2px 3px 6px rgb(103, 32, 189);
+
+
+}
+.rex img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
+.serve h2{
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.serve h1:hover{
+    color: blueviolet;
+}
+.serve h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin-left: -70px;
+    margin-top: 25px;
+}
+.serve h1::after{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.serve p{
+    font-size: 60px;
+}
+.serve span{
+    font-size: 60px;
+    color: aqua;
+    
+   
+}
+
+.pre{
+    border: 5px solid white;
+    height: 50vh;
+    padding-top: 10%;
+    width: 80%;
+    border-radius: 10%;
+    box-shadow:2px 2px 5px 5px teal;
+}
+.pre:hover{
+    background-color: black;
+}
+.pre p{
+    font-size: 18px;
+}
+.pre img{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow:2px 2px 5px 5px darkturquoise;
+    
+}
+.pre img:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.wer p{
+    font-size: 60px;
+}
+.card-link{
+    color:black;
+    font-size: 20px;
+    color: tomato;
+}
+.card-link:hover{
+    color:violet;
+}
+.card-body h5{
+    font-size: 30px;
+    color: tomato;
+}
+
+.rer h5{
+    font-size: 25px;
+    color: tomato;
+    padding: 5px 10px;
+}
+.rer h2{
+    color: tomato;
+}
+
+
+
+.card{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+
+
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.dex{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    width: 25rem;
+    background-color: white;
+    border-radius: 5%;
+
+
+}
+.dex-1{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    width: 25rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 5%;
+}
+.dex-1:hover{
+    background-color: black;
+    color: white;
+
+}
+.dex-2{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    width: 25rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 5%;
+}
+.dex-2:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.light{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    background-color: white;
+    border-radius: 5%;
+
+
+}
+.light:hover{
+    background-color: black;
+    color: white;
+
+}
+.dex:hover{
+    background-color: black;
+    color: white;
+
+}
+.progress{
+    margin-bottom: 20px;
+}
+.fer h3{
+    color: violet;
+}
+
+.icons i{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: crimson;
+    
+}
+.icons i:hover{
+    color: blueviolet;
+    background-color: aqua;
+    box-shadow:2px 2px 8px 8px teal;
+    transition: .5s;
+    transform: scale(1.1);
+    
+}
+.ker h2{
+    color: aqua;
+    
+}
+.box{
+    width: 50%;
+    height: 20px;
+}
+.box-11{
+    width: 50%;
+}
+.ver{
+    width: 50%;
+    height: 100px;
+
+}
+@media (max-width:1024px){
+   
+    .navbar-nav{
+      
+        width: 100%;
+        display: flex;
+        justify-content: end;
+      
+    }
+    .her{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width:100%;
+        align-items:center ;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .cer{
+        display: flex;
+        flex-direction: column;
+    }
+    .whe h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .whe h2{
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+    .whe span{
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: violet;
+    }
+    .whe p span{
+        color:violet ;
+        font-size: 20px;
+    }
+    .rex{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    
+    }
+
+    .serve h1{
+        font-size: 30px;
+    }
+    .serve p{
+        font-size:30px ;
+    }
+    .serve h1::before{
+        margin-top: 20px;
+    }
+    .serve h1::after{
+        margin-top: 20px;
+    }
+
+    .pre{
+        height: auto;
+        
+    }
+    .wer p{
+        font-size: 30px;
+    }
+    .first{
+        order: 2!important;
+    }
+    .second{
+        order: 1!important;
+      
+    }
+    .dex{
+        height:auto;
+        width: auto;
+    }
+    .dex-1{
+        height:auto;
+        width: auto;
+    }
+    .dex-2{
+        height:auto;
+        width: auto;
+    }
+    .progress{
+        margin-bottom: 50px;
+    }
+    .light{
+        height:auto;
+        width: auto;
+    }
+    .box{
+        width: 70%;
+        height: 20px;
+    }
+    .box-11{
+        width: 70%;
+    }
+    .ver{
+        width: 70%;
+        height: auto;
+    }
+    
+    
+    
+
+    }
+
+
